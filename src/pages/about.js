@@ -1,20 +1,37 @@
 import React from "react";
  
 const About = () => {
+    const styles = {
+        aboutText: {
+            marginLeft: "25%",
+            marginRight: "25%",
+
+            textAlign: "justify",
+        //   backgroundColor: "#f1f1f1",
+        //   width: "100%",
+        },
+        inputText: {
+          padding: "10px",
+          color: "red",
+        },
+      };
     return (
         <div
             style={{
                 display: "flex",
-                justifyContent: "centre",
-                alignItems: "centre",
+                // justifyContent: "center",
+                flexDirection: "column",
+                alignItems: "center",
                 height: "100vh",
             }}
         >
+        
+
             <h1>
                 ABOUT
             </h1>
 
-            <p>
+            <div className="aboutText" style={styles.aboutText}>
             BAICD is a collective of independent Chinese dancers, choreographers, 
             and allied artists who use traditional arts to tell new Bay Area and 
             global stories in our own voices. While we were created to provide a 
@@ -27,7 +44,7 @@ const About = () => {
             schedules while democratizing individual dancers’ artistic voice. We hope 
             to connect traditional audiences with local issues, and use our public 
             engagement to introduce new communities to the diversity of Chinese dance. 
-            </p>
+            </div>
         </div>
     );
 };
