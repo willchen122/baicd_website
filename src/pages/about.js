@@ -1,31 +1,39 @@
 import React from "react";
- 
+import BAICD_BannerImage from '../components/Banner/BAICD_BannerImage.png'; // with import
+
 const About = () => {
     const styles = {
         aboutText: {
-            marginLeft: "25%",
-            marginRight: "25%",
-
+            marginLeft: "15%",
+            marginRight: "15%",
             textAlign: "justify",
-        //   backgroundColor: "#f1f1f1",
-        //   width: "100%",
+
         },
         inputText: {
           padding: "10px",
           color: "red",
         },
+        banner:{
+            marginLeft: "15%",
+            marginRight: "15%",
+
+        }
       };
     return (
         <div
             style={{
                 display: "flex",
-                // justifyContent: "center",
+
                 flexDirection: "column",
                 alignItems: "center",
                 height: "100vh",
             }}
         >
         
+            <div className="banner" style={styles.banner}>
+                <img src={BAICD_BannerImage}></img>
+            </div>
+                
 
             <h1>
                 ABOUT
