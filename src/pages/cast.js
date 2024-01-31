@@ -1,12 +1,17 @@
 import React from "react";
+import Genevieve from "../components/castIntros/genevieveIntro";
  
 const Cast = () => {
     const styles = {
-        aboutText: {
+        castText: {
             marginLeft: "15%",
             marginRight: "15%",
             textAlign: "justify",
-
+        },
+        hodgeText:{
+            marginLeft: "15%",
+            marginRight: "50%",
+            textAlign: "justify",
         },
         inputText: {
           padding: "10px",
@@ -28,7 +33,7 @@ const Cast = () => {
             }}
         >
             <h1>
-                ABOUT
+                CAST AND CREW
             </h1>
 
             <div className="castText" style={styles.castText}>
@@ -36,6 +41,16 @@ const Cast = () => {
             We are especially proud of our broad array of artistic 
             collaborators and technical supports, and the many talents 
             they have outside of BAICD.
+            </div>
+
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridGap: 30 }}>
+            
+                <div><Genevieve /></div>
+                <div><Genevieve /></div>
+                <div><Genevieve /></div>
+                <div><Genevieve /></div>
+                <div><Genevieve /></div>
+                <div><Genevieve /></div>
             </div>
 
             
