@@ -23,7 +23,6 @@ const About = () => {
         <div
             style={{
                 display: "flex",
-
                 flexDirection: "column",
                 alignItems: "center",
                 height: "100vh",
