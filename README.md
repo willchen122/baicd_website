@@ -8,3 +8,6 @@ Progress Update: January 25
 
 Progress Update: January 26
 <img width="1440" alt="Screenshot 2024-01-26 at 9 41 51 PM" src="https://github.com/willchen122/baicd_website/assets/127919616/38250747-e80f-45dd-9c4c-7c6eacd30786">
+
+Progress Update: January 30
+<img width="1440" alt="Screenshot 2024-01-30 at 11 20 10 PM" src="https://github.com/willchen122/baicd_website/assets/127919616/b4c95f90-3e39-4d4b-8f2a-3c0133abe67c">
