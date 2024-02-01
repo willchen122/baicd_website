@@ -1,19 +1,44 @@
 import React from "react";
- 
+import BAICD_BannerImage from '../components/Banner/BAICD_BannerImage.png'
+
 const Ticket = () => {
+    const styles = {
+        // aboutText: {
+        //     marginLeft: "15%",
+        //     marginRight: "15%",
+        //     textAlign: "justify",
+
+        // },
+        // inputText: {
+        //   padding: "10px",
+        //   color: "red",
+        // },
+        banner:{
+            marginLeft: "15%",
+            marginRight: "15%",
+
+        },
+      };
+    
     return (
         <div
             style={{
                 display: "flex",
-                justifyContent: "centre",
-                alignItems: "centre",
+                flexDirection: "column",
+                alignItems: "center",
                 height: "100vh",
             }}
         >
-            <h1>
-                GeeksforGeeks is a Computer Science portal
-                for geeks.
-            </h1>
+            <div className="banner" style={styles.banner}>
+                <img src={BAICD_BannerImage}></img>
+            </div>
+
+            <div>                
+                <strong>閩橋 Min Bridges: stories from the Malay World, Taiwan, and mainland China</strong> is our first produced show, on May 4th, 2024 at 7:30 pm at Theatre of Yugen in San Francisco. Stay tuned for the official ticket site. In the meantime, you can secure early access to the ticketing website by donating to our company below  and keep in touch by signing up for our mailing list on the Contact/Booking tab.  
+                <br></br>
+                <br></br>
+                <strong>Donations</strong> Donors like you are a valuable part of our community here at BAICD. We’re all volunteers, but we aspire to pay our members and collaborators equitable market rates, We can’t do that without your support.  You help us secure the innovative, equitable, and democratic traditional arts we all believe in. Thanks to our fiscal sponsor Shawl Anderson Dance Center (SADC), all donations to BAICD are tax-deductible. Please donate through SADC’s website <a class="donationLink" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">here</a>.
+            </div>
         </div>
     );
 };
