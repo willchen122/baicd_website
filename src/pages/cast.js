@@ -2,7 +2,19 @@ import React from "react";
 import Genevieve from "../components/castIntros/genevieveIntro";
 import Shawn from "../components/castIntros/shawnintro";
 import Stephanie from "../components/castIntros/stephanieintro";
- 
+import Ariel from "../components/castIntros/ariel";
+import Rebs from "../components/castIntros/rebs";
+import Laura from "../components/castIntros/laura";
+import Shirley from "../components/castIntros/shirley";
+import Alex from "../components/castIntros/alex";
+import Erin from "../components/castIntros/erin";
+import Nathaniel from "../components/castIntros/nathaniel";
+import Ellie from "../components/castIntros/ellie";
+// import Erin from "../components/castIntros/erin";
+// import Erin from "../components/castIntros/erin";
+// import Erin from "../components/castIntros/erin";
+// import Erin from "../components/castIntros/erin";
+
 const Cast = () => {
     const styles = {
         castText: {
@@ -50,9 +62,19 @@ const Cast = () => {
                 <div><Genevieve /></div>
                 <div><Shawn /></div>
                 <div><Stephanie /></div>
-                <div><Genevieve /></div>
-                <div><Genevieve /></div>
-                <div><Genevieve /></div>
+                <div><Ariel /></div>
+                <div><Rebs /></div>
+                <div><Laura /></div>
+                <div><Shirley /></div>
+                <div><Alex /></div>
+                <div><Erin /></div>
+                <div><Nathaniel /></div>
+                <div><Ellie /></div>
+                {/* <div><Tiffany /></div> */}
+                {/* <div><Nala /></div> */}
+                {/* <div><Jimmy /></div> */}
+                {/* <div><Swathi /></div> */}
+                
             </div>
 
             

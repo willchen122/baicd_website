@@ -22,7 +22,7 @@ const Stephanie = () => {
         style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
             <div>
-            Artistic Director and Executive Producer Shawn Lee
+            assistant director stefanie chen
             </div>
 
             <div className="castImage" style={styles.castImage}>
