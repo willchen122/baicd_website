@@ -5,15 +5,17 @@ const Media = () => {
         <div
             style={{
                 display: "flex",
-                justifyContent: "centre",
-                alignItems: "centre",
+                flexDirection: "column",
+                alignItems: "center",
                 height: "100vh",
             }}
         >
-            <h1>
-                GeeksforGeeks is a Computer Science portal
-                for geeks.
-            </h1>
+            <div>
+                <p>Highlights from engagement with reviewers, partners, and journalists. For inquiries, please see our contact/booking tab.</p>
+                <br></br>
+                <br></br>
+                <span><a href="#">Dance Mission Theater Presents HARVEST Choreographers Showcase"</a> Jenn Norris Dance Reviews 9 Oct 2023</span>
+            </div>
         </div>
     );
 };
