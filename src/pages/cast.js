@@ -10,10 +10,10 @@ import Alex from "../components/castIntros/alex";
 import Erin from "../components/castIntros/erin";
 import Nathaniel from "../components/castIntros/nathaniel";
 import Ellie from "../components/castIntros/ellie";
-// import Erin from "../components/castIntros/erin";
-// import Erin from "../components/castIntros/erin";
-// import Erin from "../components/castIntros/erin";
-// import Erin from "../components/castIntros/erin";
+import Tiffany from "../components/castIntros/tiffany";
+import Nala from "../components/castIntros/nala";
+import Jimmy from "../components/castIntros/jimmy";
+import Swathi from "../components/castIntros/swathi";
 
 const Cast = () => {
     const styles = {
@@ -70,10 +70,10 @@ const Cast = () => {
                 <div><Erin /></div>
                 <div><Nathaniel /></div>
                 <div><Ellie /></div>
-                {/* <div><Tiffany /></div> */}
-                {/* <div><Nala /></div> */}
-                {/* <div><Jimmy /></div> */}
-                {/* <div><Swathi /></div> */}
+                <div><Tiffany /></div>
+                <div><Nala /></div>
+                <div><Jimmy /></div>
+                <div><Swathi /></div>
                 
             </div>
 

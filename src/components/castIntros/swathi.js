@@ -3,7 +3,7 @@ import replacablePhoto from "../../images/castPhotos/replacablePhoto.png";
 // import replacable
  
 
-const Alex = () => {
+const Swathi = () => {
     const styles = {
         castImage:{
             marginLeft: "15%",
@@ -22,7 +22,7 @@ const Alex = () => {
         style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
             <div>
-            lighting director and stage manager alex wong
+            kanartic vocalist swathi narayanan
             </div>
 
             <div className="castImage" style={styles.castImage}>
@@ -30,11 +30,13 @@ const Alex = () => {
             </div>
 
             <div>
-            Alex is a software engineer and lighting designer with 
-            over 15 years experience in theatre, dance and live events 
-            in the SF Bay Area and Boston. He is thrilled to be working 
-            with BAICD on the Min Bridges project, his first in several 
-            years.
+            Swathi Narayanan is a South Indian vocalist based in the 
+            Bay Area. She has practiced Carnatic, or South Indian Classical 
+            Music since the age of 5. A disciple of Smt. Radha Kalyan, 
+            she follows the classical tradition established by Vidwan 
+            Thanjavur S. Kalyanaraman. In addition to performing in the 
+            United States and India, Swathi also teaches vocal music in 
+            her spare time.
 
 
 
@@ -43,6 +45,6 @@ const Alex = () => {
     );
 };
  
-export default Alex;
+export default Swathi;
             
             

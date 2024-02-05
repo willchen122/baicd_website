@@ -3,7 +3,7 @@ import replacablePhoto from "../../images/castPhotos/replacablePhoto.png";
 // import replacable
  
 
-const Alex = () => {
+const Nala = () => {
     const styles = {
         castImage:{
             marginLeft: "15%",
@@ -22,7 +22,7 @@ const Alex = () => {
         style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
             <div>
-            lighting director and stage manager alex wong
+            lead web developer and company dancer nala chen
             </div>
 
             <div className="castImage" style={styles.castImage}>
@@ -30,11 +30,7 @@ const Alex = () => {
             </div>
 
             <div>
-            Alex is a software engineer and lighting designer with 
-            over 15 years experience in theatre, dance and live events 
-            in the SF Bay Area and Boston. He is thrilled to be working 
-            with BAICD on the Min Bridges project, his first in several 
-            years.
+            
 
 
 
@@ -43,6 +39,6 @@ const Alex = () => {
     );
 };
  
-export default Alex;
+export default Nala;
             
             
