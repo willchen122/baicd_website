@@ -1,5 +1,7 @@
 import React from "react";
 import Genevieve from "../components/castIntros/genevieveIntro";
+import Shawn from "../components/castIntros/shawnintro";
+import Stephanie from "../components/castIntros/stephanieintro";
  
 const Cast = () => {
     const styles = {
@@ -46,8 +48,8 @@ const Cast = () => {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridGap: 30 }}>
             
                 <div><Genevieve /></div>
-                <div><Genevieve /></div>
-                <div><Genevieve /></div>
+                <div><Shawn /></div>
+                <div><Stephanie /></div>
                 <div><Genevieve /></div>
                 <div><Genevieve /></div>
                 <div><Genevieve /></div>
