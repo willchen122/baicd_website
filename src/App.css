@@ -37,16 +37,35 @@
   }
 }
 
-.donationLink{
+.allLinks{
   color: black;
-  text-decoration: none;
+  /* text-decoration: none; */
   font-weight: bold;
 }
-.donationLink:hover{
+.allLinks:hover{
   color:aqua;
   background-color: #109c85;
   border-radius: 5px;
-  box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
+  box-shadow: 2px 2px 1px 0.5px rgba(0, 0, 255, .2);
   /* box-shadow: -1.5px -1.5px 2px 1px rgba(160, 60, 255, .2); */
   padding: 0px 3px;
+  margin: 0px 1px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+}
+p.mediaInquiry{
+  font-size: 18px;
+  font-weight: bold;
+}
+.reviewTexts, .ticketTexts{
+  font-size: 15px;
+  padding: 20px 50px;
+}
+.mediaText{
+  padding: 10px 50px;
+}
+.linkReview{
+  padding: 10px 50px;
+  display:inline-flex;
 }
