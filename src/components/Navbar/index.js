@@ -18,22 +18,22 @@ const Navbar = () => {
 
 				<NavMenu>
 					<NavLink to="/about" >
-						About
+						ABOUT
 					</NavLink>
 					<NavLink to="/blog" activeStyle>
-						Blog
+						BLOG: /CHECK-INS
 					</NavLink>
 					<NavLink to="/cast" activeStyle>
-						Cast
-					</NavLink>
-					<NavLink to="/check" activeStyle>
-						Check
-					</NavLink>
-					<NavLink to="/media" activeStyle>
-						Media
+						CAST AND CREW
 					</NavLink>
 					<NavLink to="/tickets" activeStyle>
-						Tickets
+						TICKETS/DONATE
+					</NavLink>
+					<NavLink to="/media" activeStyle>
+						MEDIA COVERAGE
+					</NavLink>
+					<NavLink to="/contact" activeStyle>
+						CONTACT/BOOKING
 					</NavLink>
 					{/* Second Nav */}
 					{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}

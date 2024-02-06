@@ -12,7 +12,7 @@ import Home from "./pages";
 import About from "./pages/about";
 import Blog from "./pages/blog";
 import Cast from "./pages/cast";
-import Check from "./pages/check";
+import Contact from "./pages/contact";
 import Media from "./pages/media";
 import Tickets from "./pages/tickets";
 
@@ -31,12 +31,12 @@ function App() {
 					path="/cast"
 					element={<Cast />}
 				/>
-				<Route path="/check" element={<Check />} />
 				<Route path="/media" element={<Media />} />
 				<Route
 					path="/tickets"
 					element={<Tickets />}
 				/>
+				<Route path="/contact" element={<Contact />} />
 			</Routes>
 		</Router>
 	);
