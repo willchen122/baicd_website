@@ -1,5 +1,5 @@
 import React from "react";
-import replacablePhoto from "../../images/castPhotos/replacablePhoto.png";
+import shirleycheng_photo from "../../images/castPhotos/shirleycheng_photo.png";
 // import replacable
  
 
@@ -26,7 +26,7 @@ const Shirley = () => {
             </div>
 
             <div className="castImage" style={styles.castImage}>
-                <img src={replacablePhoto}></img>
+                <img src={shirleycheng_photo}></img>
             </div>
 
             <div>
