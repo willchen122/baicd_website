@@ -22,3 +22,7 @@ Progress Update: February 4
 
 Progress Update: February 5
 ![baicd_update_2_5_2024](https://github.com/willchen122/baicd_website/assets/156157503/bd82487d-fc8b-406b-bd44-48d04cf8c392)
+
+Progress Update: February 6
+<img width="1440" alt="Screenshot 2024-02-06 at 9 22 36 PM" src="https://github.com/willchen122/baicd_website/assets/127919616/9f4c3aa8-5ffd-4a7a-9559-774b5d27b248">
+
