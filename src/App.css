@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+.parent{
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit,minmax(350px, 1fr));
+
+  /* padding: 5%; */
+  grid-row-gap: 2em;
+  grid-column-gap: 2em;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+.castIntroTitle{
+  text-align: center;
+}
+
 .App {
   text-align: center;
 }
@@ -68,7 +88,16 @@ p.mediaInquiry{
   font-size: 15px;
   padding: 10px 350px;
   text-align: justify;
+  /* font-family: 'Times New Roman', Times, serif; */
 }
+.defaultFont{
+  font-family: "Noto Sans TC", sans-serif;
+}
+/* .castText{
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: justify; 
+} */
 .reviewTexts{
   font-size: 15px;
   text-align: justify;

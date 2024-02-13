@@ -21,7 +21,7 @@ const Laura = () => {
         <div
         style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
-            <div>
+            <div className="castIntroTitle">
             assistant producer laura uyeki
             </div>
 

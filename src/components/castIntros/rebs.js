@@ -21,7 +21,7 @@ const Rebs = () => {
         <div
         style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
-            <div>
+            <div className="castIntroTitle">
             dramaturg and script consultant rebs chan
             </div>
 

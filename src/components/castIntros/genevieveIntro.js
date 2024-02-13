@@ -6,23 +6,25 @@ import replacablePhoto from "../../images/castPhotos/replacablePhoto.png";
 const Genevieve = () => {
     const styles = {
         castImage:{
-            marginLeft: "15%",
-            marginRight: "15%",
+            // marginLeft: "auto",
+            // marginRight: "auto", 
+                        
             display: "flex",
             flex: 1,
         width: 200,
         height: 200,
         resizeMode: 'contain'
-            
-
         }
       };
     return (
         <div
-        style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
+        style={{ display: "grid", placeItems: "center", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
-            <div>
-            Assitant director and HR director genevieve hodge
+            <div className="castIntroTitle">
+            Assitant director and HR director
+            <br>
+            </br>
+            genevieve hodge
             </div>
 
             <div className="castImage" style={styles.castImage}>
