@@ -29,7 +29,7 @@ const About = () => {
             }}
         >
         
-            <div className="banner" style={styles.banner}>
+            <div className="bannerDumb" style={styles.banner}>
                 <img src={BAICD_BannerImage}></img>
             </div>
                 
