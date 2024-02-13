@@ -31,3 +31,9 @@ Progress Update: February 7
 ![Screenshot 2024-02-07 baicd 2](https://github.com/willchen122/baicd_website/assets/156157503/3ed085e4-12fa-437d-9d10-b45ebf894e1b)
 ![Screenshot 2024-02-07 baicd 3](https://github.com/willchen122/baicd_website/assets/156157503/57e8d0bc-6cc0-402f-a6d2-b8d7ef7492c4)
 ![Screenshot 2024-02-07 baicd 1](https://github.com/willchen122/baicd_website/assets/156157503/fe6dafdf-a96d-4fbe-bae6-529af1d8af6f)
+
+Progress Update: February 12
+(auto-resizing columns for cast + font change)
+<img width="1440" alt="Screenshot 2024-02-12 at 11 08 32 PM" src="https://github.com/willchen122/baicd_website/assets/127919616/98d7bfb5-2126-4fd3-9adf-98b21f546a03">
+<img width="1440" alt="Screenshot 2024-02-12 at 11 08 37 PM" src="https://github.com/willchen122/baicd_website/assets/127919616/2ad11564-c832-45d2-8482-994173e1c51f">
+
