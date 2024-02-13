@@ -18,6 +18,9 @@ const Navbar = () => {
 
 				<NavMenu>
 					<NavLink to="/about" >
+						<img src= "logoPhoto.png" alt="logo" height="125px" width="auto"/>
+					</NavLink>
+					<NavLink to="/about" >
 						ABOUT
 					</NavLink>
 					<NavLink to="/blog" activeStyle>
