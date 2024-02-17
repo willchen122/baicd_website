@@ -2,6 +2,9 @@ import React from "react";
 import BAICD_BannerImage from '../components/Banner/BAICD_BannerImage.png';
  
 const Contact = () => {
+    const sayHello = () => {
+        alert("Hello!")
+    };
     const styles = {
         // aboutText: {
         //     marginLeft: "15%",
@@ -41,38 +44,54 @@ const Contact = () => {
                 <div className="booking-form">
                 <form>
                     <div className="leftColContact">
-                    <label for="name">Name</label><br></br>
-                    <input type="text" id="name" name="name" /><br></br>
-                    <label for="email">Email address</label><br></br>
-                    <input type="text" id="email" name="email" /><br></br>
+                        <div className="form-padding">
+                            <label for="name">Name</label><br></br>
+                            <input type="text" placeholder="Joe Mama" id="name" name="name" /><br></br>
+                        </div>
+                        <div className="form-padding">
+                            <label for="email">Email address</label><br></br>
+                            <input type="text" placeholder="info@gmail" id="email" name="email" /><br></br>
+                        </div>
                     </div>
 
                     <div className="rightColContact">
-                    <label for="phoneNum">Phone number</label><br></br>
-                    <input type="text" id="phoneNum" name="phoneNum" /><br></br>
-                    <label for="inquiryChoice">Inquiry type</label><br></br>
+                    <div className="form-padding">
+                        <label for="phoneNum">Phone number</label><br></br>
+                        <input type="text" placeholder="###-###-####" id="phoneNum" name="phoneNum" /><br></br>
+                    </div>
 
-                    <input list="inquiry-choice" id="inquiryChoice" name="inquiryChoice" />
+                    <div className="form-padding" include="form-input-select()">
+                            <label for="inquiryChoice">Inquiry type</label><br></br>
+                            {/* <input className="dropDown" placeholder="Select one" list="inquiry-choice" id="inquiryChoice" name="inquiryChoice" /> */}
+                        <select className="dropDown-content dropDown" id="inquiry-choice">
+                            <option selected="true" value="" disabled="disabled">Select One</option>
 
-                    <datalist id="inquiry-choice">
-                        <option value="Book"></option>
-                        <option value="General"></option>
-                        <option value="Get in contact"></option>
-                        <option value="Customer support"></option>
-                        <option value="Buy tickets"></option>
-                    </datalist>
-                    <br></br>
+                            <option value="1">Book</option>
+                            <option value="2">General</option>
+                            <option value="3">Get in Contact</option>
+                            <option value="4">Customer Support</option>
+                            <option value="5">Buy Tickets</option>
+                        </select>
+                        <br></br>
+                        </div>
                     </div>
 
                     <div className="bottomContact">
-                    <div className="messagesBox">
-                        <label for="messages">Messages</label><br></br>
-                        <input type="text" id="messages" name="messages" /><br></br>
+
+                    <div className="form-padding">
+                        <div className="messagesBox">
+                            <label for="messages">Messages</label><br></br>
+                            <input className="form-padding messageLabel" placeholder="Type your message here" type="text" id="messages" name="messages" /><br></br>
+                        </div>
                     </div>
                     <div className="signUpBox">
                         <input type="checkbox" id="sign-up" name="sign-up" />
                         <label for="sign-up">Sign up for our mailing list</label><br></br>
+
+                        <input className="submitButton" onClick={sayHello()} type="submit" id="submitButton" name="submitButton" />
+                        <br></br>
                     </div>
+                
                     </div>
                 </form>
                 <div className="bottomIcons">
