@@ -4,6 +4,7 @@ import axios from 'axios'; // Import Axios
 
 
 const Blog = () => {
+
     const [csvData, setCsvData] = useState([]);
 
     useEffect(() => {
@@ -57,17 +58,7 @@ const Blog = () => {
                 {csvData.map(function(data) {
                   return (
                     <div key={data.text}>
-                      Author name:  {data.author}
-                      <br />
-                      Title: {data.title}
-                      <br />
-                      Date:  {data.date}
-                      <br />
-                      Text: {data.text}
-                      <br />
-                      <br />
-
-
+                      <BlogPost title={data.title} author={data.author} date={data.date} text={data.text} />
                     </div>
                   )
                 })}
@@ -78,16 +69,7 @@ const Blog = () => {
         }
       }
 
-    
-
-      const PostComponent = blogPosts();
-
-
-    // const posts = createBlogPost();
-    // console.log("loopData: ", loopData);
-
-    // console.log("parsedCsvData 2", parsedCsvData);  
-
+    const PostComponent = blogPosts();
 
     return (
         <div
@@ -97,6 +79,9 @@ const Blog = () => {
                 justifyContent: "centre",
                 alignItems: "centre",
                 height: "100vh",
+                marginLeft: "15%",
+                marginRight: "15%",
+                textAlign: "justify",
             }}
         >
             <h1>
@@ -110,7 +95,6 @@ const Blog = () => {
     <div>
       <PostComponent />
     </div>
-
             
         </div>
     );
