@@ -47,3 +47,7 @@ Progress Update: February 17
 <img width="1791" alt="Screen Shot 2024-02-17 at 2 52 14 AM" src="https://github.com/willchen122/baicd_website/assets/52183074/c2127e33-0c91-4ecf-b2e5-e6d627ef7b93">
 <img width="1792" alt="Screen Shot 2024-02-17 at 3 07 07 AM" src="https://github.com/willchen122/baicd_website/assets/52183074/3f188d1b-297c-4d7f-a6de-a5bb644add7f">
 
+Progress Update: February 22
+<img width="1440" alt="Screenshot 2024-02-22 at 11 14 43 PM" src="https://github.com/willchen122/baicd_website/assets/127919616/1a0d5d5e-1d47-4c97-8c10-aaa0e485282c">
+
+
