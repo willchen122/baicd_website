@@ -49,11 +49,16 @@ const Cast = () => {
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                height: "100vh",
+                height: '100%',
+                min_height: '100vh',
+                
+                
             }}
         >
             <h1>
+                <div className="castText defaultFont">
                 CAST AND CREW
+                </div>
             </h1>
 
             {/* <div className="castText" style={styles.castText}> */}

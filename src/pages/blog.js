@@ -78,7 +78,7 @@ const Blog = () => {
                 flexDirection: "column",
                 justifyContent: "centre",
                 alignItems: "centre",
-                height: "100vh",
+                // height: "100vh",
                 marginLeft: "15%",
                 marginRight: "15%",
                 textAlign: "justify",

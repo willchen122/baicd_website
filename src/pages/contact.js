@@ -28,7 +28,7 @@ const Contact = () => {
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                height: "100vh",
+                // height: "100vh",
             }}
         >
              <div className="banner" style={styles.banner}>
