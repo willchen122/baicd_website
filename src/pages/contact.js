@@ -24,9 +24,12 @@ const Contact = () => {
              <div className="banner" style={styles.banner}>
                 <img src={BAICD_BannerImage}></img>
             </div>
-            <h3>
+
+            <h1>
+                <div className="pageTitles">
                 CONTACT/BOOKING
-            </h3>
+                </div>
+            </h1>
             <div className="bookingText">
                 <p className="booking-disclaimer">
                 Please fill out our form below to book us for public or private performances or panels, collaborations, business proposals, press inquiries, &c. We love being a part of the community, and we look forward from hearing from you! You can also use this form to sign up for our mailing list! 

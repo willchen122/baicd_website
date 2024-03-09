@@ -9,8 +9,8 @@
   grid-row-gap: 2em;
   grid-column-gap: 2em;
   text-align: justify;
-  margin-left: 8%;
-  margin-right: 8%;
+  /* margin-left: 8%;
+  margin-right: 8%; */
   margin-top: 3%;
 }
 
@@ -103,7 +103,7 @@ p.mediaInquiry{
 }
 .ticketTexts{
   font-size: 15px;
-  padding: 10px 350px;
+  padding: 0px 350px;
   text-align: justify;
   /* font-family: 'Times New Roman', Times, serif; */
 }
@@ -111,8 +111,17 @@ p.mediaInquiry{
   font-family: "Noto Sans TC", sans-serif;
 }
 .castIntroText{
+  font-size: larger;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.defaultFontXLarge{
+  font-size: x-large;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.pageTitles{
   font-size: large;
   font-family: "Noto Sans TC", sans-serif;
+  color: #986C4A;
 }
 
 .reviewTexts{

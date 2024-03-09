@@ -32,13 +32,14 @@ const About = () => {
             <div className="bannerDumb" style={styles.banner}>
                 <img src={BAICD_BannerImage}></img>
             </div>
-                
 
             <h1>
-                ABOUT
+                <div className="pageTitles">
+                        ABOUT
+                </div>
             </h1>
 
-            <div className="aboutText" style={styles.aboutText}>
+            <div className="aboutText defaultFontXLarge" style={styles.aboutText}>
             BAICD is a collective of independent Chinese dancers, choreographers, 
             and allied artists who use traditional arts to tell new Bay Area and 
             global stories in our own voices. While we were created to provide a 

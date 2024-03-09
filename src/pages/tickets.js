@@ -3,20 +3,9 @@ import BAICD_BannerImage from '../components/Banner/BAICD_BannerImage.png'
 
 const Ticket = () => {
     const styles = {
-        // aboutText: {
-        //     marginLeft: "15%",
-        //     marginRight: "15%",
-        //     textAlign: "justify",
-
-        // },
-        // inputText: {
-        //   padding: "10px",
-        //   color: "red",
-        // },
         banner:{
             marginLeft: "15%",
             marginRight: "15%",
-
         },
       };
     
@@ -33,7 +22,13 @@ const Ticket = () => {
                 <img src={BAICD_BannerImage}></img>
             </div>
 
-            <div className="ticketTexts">                
+            <h1>
+                <div className="pageTitles">
+                TICKETS/DONATE
+                </div>
+            </h1>
+
+            <div className="ticketTexts defaultFontXLarge">                
                 <p><strong>閩橋 Min Bridges: stories from the Malay World, Taiwan, and mainland China</strong> is our first produced show, on May 4th, 2024 at 7:30 pm at Theatre of Yugen in San Francisco. Stay tuned for the official ticket site. In the meantime, you can secure early access to the ticketing website by donating to our company below  and keep in touch by signing up for our mailing list on the Contact/Booking tab.  
                 <br></br>
                 <br></br>

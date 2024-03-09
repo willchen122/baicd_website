@@ -22,13 +22,7 @@ import Grid from '@mui/material/Grid';
 const Cast = () => {
     const styles = {
         castText: {
-            marginLeft: "15%",
-            marginRight: "15%",
             textAlign: "justify", 
-        },
-        banner:{
-            marginLeft: "15%",
-            marginRight: "15%",
         },
       };
     return (
@@ -39,23 +33,26 @@ const Cast = () => {
                 alignItems: "center",
                 height: '100%',
                 min_height: '100vh',
+                marginLeft: '12%', 
+                marginRight: '12%',
             }}
         >
             <div className="banner" style={styles.banner}>
                 <img src={BAICD_BannerImage}></img>
             </div>
             <h1>
-                <div className="castText defaultFont">
-                CAST AND CREW
+                <div className="pageTitles">
+                        CAST AND CREW
                 </div>
             </h1>
 
-            <div className="castText defaultFont">
+            <div className="defaultFontXLarge">
             
             We are proud to invest equally in cast and crew. 
             We are especially proud of our broad array of artistic 
             collaborators and technical supports, and the many talents 
             they have outside of BAICD.
+            <br/>
             </div>
 
             <div className="parent">

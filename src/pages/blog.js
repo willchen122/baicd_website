@@ -89,11 +89,14 @@ const Blog = () => {
             <div className="banner">
                 <img src={BAICD_BannerImage}></img>
             </div>
+
             <h1>
-            blog: 打卡/Check-ins
+                <div className="pageTitles">
+                    BLOG: 打卡/CHECK-INS
+                </div>
             </h1>
 
-            <div>
+            <div className='defaultFontXLarge'>
             “Daka”, or check-ins, in Chinese dance refer to daily exercises that Classical Chinese dancers do to keep key body parts in working order. On this blog, you'll hear reflections from our choreographers, dancers, techs, and production team on how and why we've built our Company the way we have. We know Chinese dance isn't the only art form where artists can benefit from performance, filming, and other resources to push the boundaries of their art, but some people are too far away from us, either in space or in visual similarity, to come under our roof. We're always ready to help them one on one, but here we share some reflections on our process, so our lessons can propel future artistic groundbreakers wherever they may be. <br/><br/><br/>
             </div>
 

@@ -21,7 +21,13 @@ const Media = () => {
                 <img src={BAICD_BannerImage}></img>
             </div>
 
-            <div className="mediaText">
+            <h1>
+                <div className="pageTitles">
+                    PRESS COVERAGE
+                </div>
+            </h1>
+
+            <div className="mediaText defaultFontXLarge">
                 <p className="mediaInquiry">Highlights from engagement with reviewers, partners, and journalists. For inquiries, please see our contact/booking tab.</p>
                 <br></br>
 
