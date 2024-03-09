@@ -22,7 +22,7 @@ const Swathi = () => {
         style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
             <div className="castIntroTitle">
-            kanartic vocalist swathi narayanan
+            KANARTIC VOCALIST<br />SWATHI NARAYANAN
             </div>
 
             <div className="castImage">

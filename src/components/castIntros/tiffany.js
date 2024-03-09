@@ -22,7 +22,7 @@ const Tiffany = () => {
         style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
             <div className="castIntroTitle">
-            visual designer tiffany lin
+            VISUAL DESIGNER<br />TIFFANY LIN
             </div>
 
             <div className="castImage">

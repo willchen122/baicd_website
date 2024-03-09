@@ -22,7 +22,7 @@ const Nathaniel = () => {
         style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
             <div className="castIntroTitle">
-            chinese yoyo artist and videographer nathaniel goh
+            CHINESE YOYO ARTIST AND VIDEOGRAPHER<br />NATHANIEL GOH
             </div>
 
             <div className="castImage">

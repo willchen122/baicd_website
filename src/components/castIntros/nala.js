@@ -22,7 +22,7 @@ const Nala = () => {
         style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
             <div className="castIntroTitle">
-            lead web developer and company dancer nala chen
+            LEAD WEB DEVELOPER<br />NALA CHEN
             </div>
 
             <div className="castImage">

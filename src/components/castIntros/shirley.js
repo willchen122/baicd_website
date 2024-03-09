@@ -22,7 +22,7 @@ const Shirley = () => {
         style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
             <div className="castIntroTitle">
-            choreographer and company dancer shirley cheng
+            CHOREOGRAPHER AND COMPANY DANCER<br />SHIRLEY CHENG
             </div>
 
             <div className="castImage">

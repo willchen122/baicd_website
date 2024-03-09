@@ -22,7 +22,7 @@ const Alex = () => {
         style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
             <div className="castIntroTitle">
-            lighting director and stage manager alex wong
+            LIGHTING DIRECTOR AND STAGE MANAGER<br />ALEX WONG
             </div>
 
             <div className="castImage">

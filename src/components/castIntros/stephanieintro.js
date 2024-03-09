@@ -22,7 +22,7 @@ const Stephanie = () => {
         style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
             <div className="castIntroTitle">
-            assistant director stefanie chen
+            ASSISTANT DIRECTOR<br />STEFANIE CHEN
             </div>
 
             <div className="castImage">

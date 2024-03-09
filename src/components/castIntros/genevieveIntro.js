@@ -9,10 +9,9 @@ const Genevieve = () => {
         style={{ display: "grid", placeItems: "center", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
             <div className="castIntroTitle">
-            Assitant director and HR director
-            <br>
-            </br>
-            genevieve hodge
+            ASSISTANT DIRECTOR AND HR DIRECTOR
+            <br />
+            GENEVIEVE HODGE
             </div>
 
             <div className="castImage">

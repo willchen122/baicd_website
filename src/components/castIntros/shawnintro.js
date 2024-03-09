@@ -22,7 +22,7 @@ const Shawn = () => {
         style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
             <div className="castIntroTitle">
-            Artistic Director and Executive Producer Shawn Lee
+            ARTISTIC DIRECTOR AND EXECUTIVE PRODUCER<br />SHAWN LEE
             </div>
 
             <div className="castImage">

@@ -22,7 +22,7 @@ const Rebs = () => {
         style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
             <div className="castIntroTitle">
-            dramaturg and script consultant rebs chan
+            DRAMATURG AND SCRIPT CONSULTANT<br />REBS CHAN
             </div>
 
             <div className="castImage">

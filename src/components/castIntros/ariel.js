@@ -22,7 +22,7 @@ const Ariel = () => {
         style={{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
         >
             <div className="castIntroTitle">
-            company dancer ariel liu
+            COMPANY DANCER<br />ARIEL LIU
             </div>
 
             <div className="castImage">
