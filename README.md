@@ -50,4 +50,8 @@ Progress Update: February 17
 Progress Update: February 22
 <img width="1440" alt="Screenshot 2024-02-22 at 11 14 43 PM" src="https://github.com/willchen122/baicd_website/assets/127919616/1a0d5d5e-1d47-4c97-8c10-aaa0e485282c">
 
+Progress Update: March 9
+TODO: hook up submit button to send email. Format blog posts. 
+https://github.com/willchen122/baicd_website/assets/52183074/3c8c5ccc-4f26-445f-8f7c-0dc3eb042100
+
 
