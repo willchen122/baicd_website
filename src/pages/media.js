@@ -14,7 +14,8 @@ const Media = () => {
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                // height: "100vh",
+                marginLeft: "15%",
+                marginRight: "15%",                
             }}
         >
              <div className="banner" style={styles.banner}>
@@ -28,11 +29,11 @@ const Media = () => {
             </h1>
 
             <div className="mediaText defaultFontXLarge">
-                <p className="mediaInquiry">Highlights from engagement with reviewers, partners, and journalists. For inquiries, please see our contact/booking tab.</p>
-                <br></br>
+                Highlights from engagement with reviewers, partners, and journalists. For inquiries, please see our contact/booking tab.
+                <br/>
 
-                <div className="linkReview"><p className="mediaSpan">"<a className="allLinks" href="https://www.youtube.com/watch?v=djV11Xbc914&ab_channel=a-ha" target="blank">Dance Mission Theater Presents HARVEST Choreographers Showcase</a>" Jenn Norris Dance Reviews 9 Oct 2023</p></div>
-                <div className="reviewTexts">“Two solos drawn from world dance forms shine brightly on this evening. The first, Keluarga Laut (Sea Families) is choreographed and performed by Shawn Lee to a light-hearted song sung by a Chinese high school choir. The movement, with its repeating gestures to the sky and the sea, has the flavor of classical Chinese dance. Lee’s focus is a woven Chinese fishing hat with a domed top and wide round brim. Lee wears a calf length skirt, which highlights the frequent backward foot flicks that create the dance’s accents. Smiling broadly with joyous energy Lee windmills and then spins dervish-like hat in hand. I imagine if this dance is traditional, it is danced to invite or celebrate a successful fishing outing.”</div>
+                <div className="linkReview">"<a className="allLinks" href="https://www.youtube.com/watch?v=djV11Xbc914&ab_channel=a-ha" target="blank">Dance Mission Theater Presents HARVEST Choreographers Showcase</a>" Jenn Norris Dance Reviews 9 Oct 2023</div>
+                <div className="reviewTexts">“Two solos drawn from world dance forms shine brightly on this evening. The first, Keluarga Laut (Sea Families) is choreographed and performed by Shawn Lee to a light-hearted song sung by a Chinese high school choir. The movement, with its repeating gestures to the sky and the sea, has the flavor of classical Chinese dance. Lee's focus is a woven Chinese fishing hat with a domed top and wide round brim. Lee wears a calf length skirt, which highlights the frequent backward foot flicks that create the dance's accents. Smiling broadly with joyous energy Lee windmills and then spins dervish-like hat in hand. I imagine if this dance is traditional, it is danced to invite or celebrate a successful fishing outing.”</div>
             </div>
         </div>
     );

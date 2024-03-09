@@ -23,14 +23,14 @@ const Navbar = () => {
 					<NavLink to="/about" >
 						ABOUT
 					</NavLink>
-					<NavLink to="/blog" activeStyle>
-						BLOG: /CHECK-INS
-					</NavLink>
 					<NavLink to="/cast" activeStyle>
 						CAST AND CREW
 					</NavLink>
 					<NavLink to="/tickets" activeStyle>
 						TICKETS/DONATE
+					</NavLink>
+					<NavLink to="/blog" activeStyle>
+						BLOG: /CHECK-INS
 					</NavLink>
 					<NavLink to="/media" activeStyle>
 						MEDIA COVERAGE
@@ -38,14 +38,7 @@ const Navbar = () => {
 					<NavLink to="/contact" activeStyle>
 						CONTACT/BOOKING
 					</NavLink>
-					{/* Second Nav */}
-					{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
 				</NavMenu>
-				{/* <NavBtn>
-					<NavBtnLink to="/signin">
-						Sign In
-					</NavBtnLink>
-				</NavBtn> */}
 			</Nav>
 		</>
 	);

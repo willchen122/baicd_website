@@ -93,12 +93,12 @@ html {
   /* display: inline-block; */
 }
 .mediaText {
-  padding: 10px 350px;
+  /* padding: 10px 300px; */
   text-align: left;
 }
 p.mediaInquiry{
   /* font-size: 18px; */
-  font-weight: bold;
+  /* font-weight: bold; */
   text-align: justify;
 }
 .ticketTexts{
@@ -125,12 +125,14 @@ p.mediaInquiry{
 }
 
 .reviewTexts{
-  font-size: 15px;
-  text-align: justify;
+  font-size: medium;
+  font-family: "Noto Sans TC", sans-serif;
+  /* text-align: justify; */
 }
 .linkReview{
-  padding: 10px 50px 10px 0px;
+  padding: 32px 0px 8px 0px;
   text-align: justify;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .booking-form{
   background-color: rgb(236, 230, 222);

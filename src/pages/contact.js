@@ -1,10 +1,12 @@
 import React from "react";
 import BAICD_BannerImage from '../components/Banner/BAICD_BannerImage.png';
  
+const sayHello = () => {
+    alert("Hello!")
+};
+
 const Contact = () => {
-    const sayHello = () => {
-        alert("Hello!")
-    };
+    
     const styles = {
         banner:{
             marginLeft: "15%",
@@ -81,7 +83,7 @@ const Contact = () => {
                         <input type="checkbox" id="sign-up" name="sign-up" />
                         <label for="sign-up">Sign up for our mailing list</label><br></br>
 
-                        <input className="submitButton" onClick={sayHello()} type="submit" id="submitButton" name="submitButton" />
+                        <input className="submitButton" onClick={sayHello} type="submit" id="submitButton" name="submitButton" />
                         <br></br>
                     </div>
                 
@@ -92,7 +94,7 @@ const Contact = () => {
                 </div>
                 </div>
                 <br></br>
-                <p className="booking-disclaimer">Photography by Zoe Moore, Isabelle Hodge, Nathaniel Goh, and others and logo designs by Tiffany Lin Art <a className="allLinks" href="https://www.instagram.com/tiffanyyilinart/" target="blank">(https://www.instagram.com/tiffanyyilinart/)</a>. Bay Area Independent Chinese Dancers is a fiscally sponsored project of Shawl Anderson Dance Center. Website design by Shawn Lee, @studiocreator and @hopdesignstudio on Canva and implemented by Nala Chen. All rights reserved.</p>
+                <p className="booking-disclaimer">Photography by Zoe Moore, Isabelle Hodge, Nathaniel Goh, and others and logo designs by Tiffany Lin Art <a className="allLinks" href="https://www.instagram.com/tiffanyyilinart/" target="blank">(https://www.instagram.com/tiffanyyilinart/)</a>. Bay Area Independent Chinese Dancers is a fiscally sponsored project of Shawl Anderson Dance Center. Website design by Shawn Lee, @studiocreator and @hopdesignstudio on Canva and implemented by Joy Hwang, William Chen, and Nala Chen. All rights reserved.</p>
             </div>
         </div>
     );
