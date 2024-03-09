@@ -25,8 +25,8 @@ const Shawn = () => {
             Artistic Director and Executive Producer Shawn Lee
             </div>
 
-            <div className="castImage" style={styles.castImage}>
-                <img src={shawnIntro_photo}></img>
+            <div className="castImage">
+                <img src={shawnIntro_photo} style={{ maxWidth: "100%" }}></img>
             </div>
 
             <div>

@@ -25,8 +25,8 @@ const Nathaniel = () => {
             chinese yoyo artist and videographer nathaniel goh
             </div>
 
-            <div className="castImage" style={styles.castImage}>
-                <img src={nathanielgoh_photo}></img>
+            <div className="castImage">
+                <img src={nathanielgoh_photo} style={{ maxWidth: "100%" }}></img>
             </div>
 
             <div>

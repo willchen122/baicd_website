@@ -25,8 +25,8 @@ const Alex = () => {
             lighting director and stage manager alex wong
             </div>
 
-            <div className="castImage" style={styles.castImage}>
-                <img src={alexwong_photo}></img>
+            <div className="castImage">
+                <img src={alexwong_photo} style={{ maxWidth: "100%" }}></img>
             </div>
 
             <div>

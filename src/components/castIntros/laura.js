@@ -25,8 +25,8 @@ const Laura = () => {
             assistant producer laura uyeki
             </div>
 
-            <div className="castImage" style={styles.castImage}>
-                <img src={laurauyeki_photo}></img>
+            <div className="castImage">
+                <img src={laurauyeki_photo} style={{ maxWidth: "100%" }}></img>
             </div>
 
             <div>

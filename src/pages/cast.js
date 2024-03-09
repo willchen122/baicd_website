@@ -16,25 +16,14 @@ import Nala from "../components/castIntros/nala";
 import Jimmy from "../components/castIntros/jimmy";
 import Swathi from "../components/castIntros/swathi";
 
+import Grid from '@mui/material/Grid';
+
 const Cast = () => {
     const styles = {
         castText: {
             marginLeft: "15%",
             marginRight: "15%",
             textAlign: "justify", 
-        //     // fontFamily: 'Noto Sans TC' "sans-serif",
-        //     // font-optical-sizing: auto;
-        //     // font-weight: <weight>;
-        //     // font-style: normal;
-        },
-        hodgeText:{
-            marginLeft: "15%",
-            marginRight: "50%",
-            textAlign: "justify",
-        },
-        inputText: {
-          padding: "10px",
-          color: "red",
         },
         banner:{
             marginLeft: "15%",
@@ -51,8 +40,6 @@ const Cast = () => {
                 alignItems: "center",
                 height: '100%',
                 min_height: '100vh',
-                
-                
             }}
         >
             <h1>
@@ -61,7 +48,6 @@ const Cast = () => {
                 </div>
             </h1>
 
-            {/* <div className="castText" style={styles.castText}> */}
             <div className="castText defaultFont">
             
             We are proud to invest equally in cast and crew. 
@@ -70,28 +56,58 @@ const Cast = () => {
             they have outside of BAICD.
             </div>
 
-            {/* <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridGap: 30,  marginLeft: "5%",
-            marginRight: "5%",}}> */}
-            {/* <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridGap: 30}}> */}
             <div className="parent">
-            
-                <div className="castText defaultFont"><Genevieve /></div>
-                <div className="castText defaultFont"><Shawn /></div>
-                <div className="castText defaultFont"><Stephanie /></div>
-                <div className="castText defaultFont"><Ariel /></div>
-                <div className="castText defaultFont"><Rebs /></div>
-                <div className="castText defaultFont"><Laura /></div>
-                <div className="castText defaultFont"><Shirley /></div>
-                <div className="castText defaultFont"><Alex /></div>
-                <div className="castText defaultFont"><Erin /></div>
-                <div className="castText defaultFont"><Nathaniel /></div>
-                <div className="castText defaultFont"><Ellie /></div>
-                <div className="castText defaultFont"><Tiffany /></div>
-                <div className="castText defaultFont"><Nala /></div>
-                <div className="castText defaultFont"><Jimmy /></div>
-                <div className="castText defaultFont"><Swathi /></div>
-                
+                <Grid container spacing={8}>
+                    <Grid item xs={12} md={6} lg={4}>
+                        <div className="castText castIntroText"><Genevieve /></div>
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+                        <div className="castText castIntroText"><Shawn /></div>
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+                        <div className="castText castIntroText"><Stephanie /></div>
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+                        <div className="castText castIntroText"><Ariel /></div>
+                    </Grid>
+
+                    <Grid item xs={12} md={6} lg={4}>
+                        <div className="castText castIntroText"><Rebs /></div>
+                    </Grid>      
+                    <Grid item xs={12} md={6} lg={4}>
+                        <div className="castText castIntroText"><Laura /></div>
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+                    <div className="castText castIntroText"><Shirley /></div>
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+                        <div className="castText castIntroText"><Alex /></div>
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+                        <div className="castText castIntroText"><Erin /></div>
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+                        <div className="castText castIntroText"><Nathaniel /></div>
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+                        <div className="castText castIntroText"><Ellie /></div>
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+                        <div className="castText castIntroText"><Tiffany /></div>
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+                        <div className="castText castIntroText"><Nala /></div>
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+                        <div className="castText castIntroText"><Jimmy /></div>
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}>
+                        <div className="castText castIntroText"><Swathi /></div>
+                    </Grid>
+                </Grid>  
             </div>
+
+            <div><br></br></div>
 
             
         </div>

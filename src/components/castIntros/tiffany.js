@@ -25,8 +25,8 @@ const Tiffany = () => {
             visual designer tiffany lin
             </div>
 
-            <div className="castImage" style={styles.castImage}>
-                <img src={tiffanylin_photo}></img>
+            <div className="castImage">
+                <img src={tiffanylin_photo} style={{ maxWidth: "100%" }}></img>
             </div>
 
             <div>

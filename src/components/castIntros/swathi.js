@@ -25,8 +25,8 @@ const Swathi = () => {
             kanartic vocalist swathi narayanan
             </div>
 
-            <div className="castImage" style={styles.castImage}>
-                <img src={swathinarayanan_photo}></img>
+            <div className="castImage">
+                <img src={swathinarayanan_photo} style={{ maxWidth: "100%" }}></img>
             </div>
 
             <div>

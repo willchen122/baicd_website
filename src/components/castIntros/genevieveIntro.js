@@ -1,21 +1,9 @@
 import React from "react";
-import replacablePhoto from "../../images/castPhotos/replacablePhoto.png";
+import genevievehodge_photo from "../../images/castPhotos/genevievehodge_photo.png";
 // import replacable
  
 
 const Genevieve = () => {
-    const styles = {
-        castImage:{
-            // marginLeft: "auto",
-            // marginRight: "auto", 
-                        
-            display: "flex",
-            flex: 1,
-        width: 200,
-        height: 200,
-        resizeMode: 'contain'
-        }
-      };
     return (
         <div
         style={{ display: "grid", placeItems: "center", gridTemplateColumns: "repeat(1, 1fr)", gridGap: 10}}
@@ -27,8 +15,8 @@ const Genevieve = () => {
             genevieve hodge
             </div>
 
-            <div className="castImage" style={styles.castImage}>
-                <img src={replacablePhoto}></img>
+            <div className="castImage">
+                <img src={genevievehodge_photo} style={{ maxWidth: "100%" }}></img>
             </div>
 
             <div>

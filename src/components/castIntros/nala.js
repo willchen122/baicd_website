@@ -25,8 +25,8 @@ const Nala = () => {
             lead web developer and company dancer nala chen
             </div>
 
-            <div className="castImage" style={styles.castImage}>
-                <img src={replacablePhoto}></img>
+            <div className="castImage">
+                <img src={replacablePhoto} style={{ maxWidth: "100%" }}></img>
             </div>
 
             <div>

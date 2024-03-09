@@ -9,13 +9,18 @@
   grid-row-gap: 2em;
   grid-column-gap: 2em;
   text-align: justify;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
   margin-top: 3%;
 }
 
 .castIntroTitle{
   text-align: center;
+}
+
+.castImage {
+  display: "flex";
+  justify-content: "center";
 }
 
 .App {
@@ -105,11 +110,11 @@ p.mediaInquiry{
 .defaultFont{
   font-family: "Noto Sans TC", sans-serif;
 }
-/* .castText{
-  margin-left: 15%;
-  margin-right: 15%;
-  text-align: justify; 
-} */
+.castIntroText{
+  font-size: large;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
 .reviewTexts{
   font-size: 15px;
   text-align: justify;

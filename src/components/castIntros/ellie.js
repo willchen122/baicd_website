@@ -25,8 +25,8 @@ const Ellie = () => {
             company dancer ellie wong
             </div>
 
-            <div className="castImage" style={styles.castImage}>
-                <img src={elliewong_photo}></img>
+            <div className="castImage">
+                <img src={elliewong_photo} style={{ maxWidth: "100%" }}></img>
             </div>
 
             <div>

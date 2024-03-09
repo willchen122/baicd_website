@@ -25,8 +25,8 @@ const Shirley = () => {
             choreographer and company dancer shirley cheng
             </div>
 
-            <div className="castImage" style={styles.castImage}>
-                <img src={shirleycheng_photo}></img>
+            <div className="castImage">
+                <img src={shirleycheng_photo} style={{ maxWidth: "100%" }}></img>
             </div>
 
             <div>

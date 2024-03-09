@@ -25,8 +25,8 @@ const Stephanie = () => {
             assistant director stefanie chen
             </div>
 
-            <div className="castImage" style={styles.castImage}>
-                <img src={stefaniechen_photo}></img>
+            <div className="castImage">
+                <img src={stefaniechen_photo} style={{ maxWidth: "100%" }}></img>
             </div>
 
             <div>

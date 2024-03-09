@@ -25,8 +25,8 @@ const Rebs = () => {
             dramaturg and script consultant rebs chan
             </div>
 
-            <div className="castImage" style={styles.castImage}>
-                <img src={rebschan_photo}></img>
+            <div className="castImage">
+                <img src={rebschan_photo} style={{ maxWidth: "100%" }}></img>
             </div>
 
             <div>

@@ -13,9 +13,7 @@ const Erin = () => {
         width: 200,
         height: 200,
         resizeMode: 'contain'
-            
-
-        }
+       }
       };
     return (
         <div
@@ -25,8 +23,8 @@ const Erin = () => {
             company dancer erin pang
             </div>
 
-            <div className="castImage" style={styles.castImage}>
-                <img src={erinpang_photo}></img>
+            <div className="castImage">
+                <img src={erinpang_photo} style={{ maxWidth: "100%" }}></img>
             </div>
 
             <div>

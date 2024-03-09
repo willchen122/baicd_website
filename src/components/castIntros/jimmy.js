@@ -25,8 +25,8 @@ const Jimmy = () => {
             composer and sound technician jimmy wing
             </div>
 
-            <div className="castImage" style={styles.castImage}>
-                <img src={replacablePhoto}></img>
+            <div className="castImage">
+                <img src={replacablePhoto} style={{ maxWidth: "100%" }}></img>
             </div>
 
             <div>
