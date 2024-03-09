@@ -1,10 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import BlogPost from "../components/Blog/BlogPost";
+import BAICD_BannerImage from '../components/Banner/BAICD_BannerImage.png';
 import axios from 'axios'; // Import Axios
 
 
 const Blog = () => {
-
+    const styles = {
+        // banner:{
+        //     marginLeft: "15%",
+        //     marginRight: "15%",
+        // },
+      };
     const [csvData, setCsvData] = useState([]);
 
     useEffect(() => {
@@ -46,10 +52,6 @@ const Blog = () => {
             return data;
         }
 
-    // console.log("csvData", csvData);
-    // console.log("csvData 0", csvData[0]);
-
-
     const blogPosts = () => {
                return class extends React.Component {
           render() {
@@ -76,14 +78,17 @@ const Blog = () => {
             style={{
                 display: "flex",
                 flexDirection: "column",
-                justifyContent: "centre",
-                alignItems: "centre",
+                justifyContent: "center",
+                alignItems: "center",
                 // height: "100vh",
                 marginLeft: "15%",
                 marginRight: "15%",
                 textAlign: "justify",
             }}
         >
+            <div className="banner">
+                <img src={BAICD_BannerImage}></img>
+            </div>
             <h1>
             blog: 打卡/Check-ins
             </h1>

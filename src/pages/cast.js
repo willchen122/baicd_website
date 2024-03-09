@@ -15,6 +15,7 @@ import Tiffany from "../components/castIntros/tiffany";
 import Nala from "../components/castIntros/nala";
 import Jimmy from "../components/castIntros/jimmy";
 import Swathi from "../components/castIntros/swathi";
+import BAICD_BannerImage from '../components/Banner/BAICD_BannerImage.png';
 
 import Grid from '@mui/material/Grid';
 
@@ -28,9 +29,7 @@ const Cast = () => {
         banner:{
             marginLeft: "15%",
             marginRight: "15%",
-
         },
-        
       };
     return (
         <div
@@ -42,6 +41,9 @@ const Cast = () => {
                 min_height: '100vh',
             }}
         >
+            <div className="banner" style={styles.banner}>
+                <img src={BAICD_BannerImage}></img>
+            </div>
             <h1>
                 <div className="castText defaultFont">
                 CAST AND CREW

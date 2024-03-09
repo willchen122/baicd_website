@@ -6,16 +6,6 @@ const Contact = () => {
         alert("Hello!")
     };
     const styles = {
-        // aboutText: {
-        //     marginLeft: "15%",
-        //     marginRight: "15%",
-        //     textAlign: "justify",
-
-        // },
-        // inputText: {
-        //   padding: "10px",
-        //   color: "red",
-        // },
         banner:{
             marginLeft: "15%",
             marginRight: "15%",
