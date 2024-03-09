@@ -18,7 +18,7 @@ const Navbar = () => {
 
 				<NavMenu>
 					<NavLink to="/about" >
-						<img src= "logoPhoto.png" alt="logo" height="125px" width="auto"/>
+						<img src= "baicd_logo.png" alt="logo" height="125px" width="auto"/>
 					</NavLink>
 					<NavLink to="/about" >
 						ABOUT
