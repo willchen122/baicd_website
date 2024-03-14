@@ -110,6 +110,21 @@ p.mediaInquiry{
 .defaultFont{
   font-family: "Noto Sans TC", sans-serif;
 }
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: justify;
+}
+.blogPost{
+  font-family: "Noto Sans TC", sans-serif;
+  text-align: justify;
+  width: 100%;
+}
+.blogText{
+  font-family: "Noto Sans TC", sans-serif;
+  text-align: justify;
+  max-width: 100%;
+}
 .castIntroText{
   font-size: larger;
   font-family: "Noto Sans TC", sans-serif;

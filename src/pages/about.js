@@ -25,7 +25,6 @@ const About = () => {
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                // height: "100vh",
             }}
         >
         
@@ -48,8 +47,8 @@ const About = () => {
             arts and original interpretations of derived pieces, regardless of age, 
             national origin, gender, or other dance team/studio affiliations. Our 
             goal is not to replicate the traditional studio model, but to focus on 
-            original choreographies and solos that better fit with working adults’ 
-            schedules while democratizing individual dancers’ artistic voice. We hope 
+            original choreographies and solos that better fit with working adults' 
+            schedules while democratizing individual dancers' artistic voice. We hope 
             to connect traditional audiences with local issues, and use our public 
             engagement to introduce new communities to the diversity of Chinese dance. 
             </div>

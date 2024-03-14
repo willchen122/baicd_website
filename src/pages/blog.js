@@ -6,10 +6,6 @@ import axios from 'axios'; // Import Axios
 
 const Blog = () => {
     const styles = {
-        // banner:{
-        //     marginLeft: "15%",
-        //     marginRight: "15%",
-        // },
       };
     const [csvData, setCsvData] = useState([]);
 
@@ -17,8 +13,6 @@ const Blog = () => {
         fetchCSVData();    // Fetch the CSV data when the component mounts
     }, []); // The empty array ensures that this effect runs only once, like componentDidMount
 
-
-    const blogs = [];
 
 
     const fetchCSVData = () => {
@@ -38,13 +32,16 @@ const Blog = () => {
 
         function parseCSV(csvText) {
             var loopData ='';
-            const rows = csvText.split(/\r?\n/);        // Use a regular expression to split the CSV text into rows while handling '\r'
+            const rows = csvText.split('\r');        // Use a regular expression to split the CSV text into rows while handling '\r'
             const headers = rows[0].split(',');        // Extract headers (assumes the first row is the header row)
             const data = [];        // Initialize an array to store the parsed data
             for (let i = 1; i < rows.length; i++) {
-                const rowData = rows[i].split(',');          // Use the regular expression to split the row while handling '\r'
+                const rowData = rows[i].split(' END,');          // Use the regular expression to split the row while handling '\r'
                 const rowObject = {};
                 for (let j = 0; j < headers.length; j++) {
+                    if (headers[j] == "text") {
+                        let currString = rowData[j];
+                    }
                     rowObject[headers[j]] = rowData[j];
                 }
                 data.push(rowObject);
@@ -56,7 +53,7 @@ const Blog = () => {
                return class extends React.Component {
           render() {
             return (
-                <div>
+                <div className='blogText'>
                 {csvData.map(function(data) {
                   return (
                     <div key={data.text}>
@@ -99,8 +96,12 @@ const Blog = () => {
             <div className='defaultFontXLarge'>
             “Daka”, or check-ins, in Chinese dance refer to daily exercises that Classical Chinese dancers do to keep key body parts in working order. On this blog, you'll hear reflections from our choreographers, dancers, techs, and production team on how and why we've built our Company the way we have. We know Chinese dance isn't the only art form where artists can benefit from performance, filming, and other resources to push the boundaries of their art, but some people are too far away from us, either in space or in visual similarity, to come under our roof. We're always ready to help them one on one, but here we share some reflections on our process, so our lessons can propel future artistic groundbreakers wherever they may be. <br/><br/><br/>
             </div>
+            {/* <div>{i}</div>
+            // <pre>
+            //     {i}
+            // </pre> */}
 
-    <div>
+    <div className='blogText'>
       <PostComponent />
     </div>
             
