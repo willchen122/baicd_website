@@ -1,11 +1,29 @@
-import React from "react";
+// import React from "react";
 import BAICD_BannerImage from '../components/Banner/BAICD_BannerImage.png';
- 
-const sayHello = () => {
-    alert("Hello!")
-};
+import React, { useState } from 'react';
 
 const Contact = () => {
+    const [name, setName] = useState("");
+    const [phone, setPhone] = useState("");
+    const [email, setEmail] = useState("");
+    const [inquiry, setInquiry] = useState("");
+    const [message, setMessage] = useState("");
+    const [maillingList, setMailingList] = useState(false);
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log(`The name you entered was: ${name}`);
+        console.log(`The phone you entered was: ${phone}`);
+        console.log(`The email you entered was: ${email}`);
+        console.log(`The inquiry you entered was: ${inquiry}`);
+        console.log(`The message you entered was: ${message}`);
+        console.log(`Mailing list: ${maillingList}`);
+
+      }
+
+      const checkHandler = () => {
+        setMailingList(!maillingList)
+      }
     
     const styles = {
         banner:{
@@ -37,35 +55,35 @@ const Contact = () => {
                 Please fill out our form below to book us for public or private performances or panels, collaborations, business proposals, press inquiries, &c. We love being a part of the community, and we look forward from hearing from you! You can also use this form to sign up for our mailing list! 
                 </p>
                 <div className="booking-form">
-                <form>
+                <form id="contactForm" onSubmit={handleSubmit}>
                     <div className="leftColContact">
                         <div className="form-padding">
                             <label for="name">Name</label><br></br>
-                            <input type="text" placeholder="Joe Mama" id="name" name="name" /><br></br>
+                            <input type="text" placeholder="Stefan G. Cheng" id="name" name="name" onChange={(e) => setName(e.target.value)}/><br></br>
                         </div>
                         <div className="form-padding">
                             <label for="email">Email address</label><br></br>
-                            <input type="text" placeholder="info@gmail" id="email" name="email" /><br></br>
+                            <input type="text" placeholder="info@gmail" id="email" name="email" onChange={(e) => setEmail(e.target.value)}/><br></br>
                         </div>
                     </div>
 
                     <div className="rightColContact">
                     <div className="form-padding">
                         <label for="phoneNum">Phone number</label><br></br>
-                        <input type="text" placeholder="###-###-####" id="phoneNum" name="phoneNum" /><br></br>
+                        <input type="text" placeholder="415-510-6500" id="phoneNum" name="phoneNum" onChange={(e) => setPhone(e.target.value)}/><br></br>
                     </div>
 
                     <div className="form-padding" include="form-input-select()">
                             <label for="inquiryChoice">Inquiry type</label><br></br>
-                            {/* <input className="dropDown" placeholder="Select one" list="inquiry-choice" id="inquiryChoice" name="inquiryChoice" /> */}
-                        <select className="dropDown-content dropDown" id="inquiry-choice">
+                            {/* <input className="dropDown" placeholder="Select one" list="inquiry-choice" id="inquiryChoice" name="inquiryChoice" onChange={(e) => setInquiry(e.target.value)}/> */}
+                        <select className="dropDown-content dropDown" id="inquiry-choice"  onChange={(e) => setInquiry(e.target.value)}>
                             <option selected="true" value="" disabled="disabled">Select One</option>
 
-                            <option value="1">Book</option>
-                            <option value="2">General</option>
-                            <option value="3">Get in Contact</option>
-                            <option value="4">Customer Support</option>
-                            <option value="5">Buy Tickets</option>
+                            <option value="Book">Book</option>
+                            <option value="General">General</option>
+                            <option value="Get in Contact">Get in Contact</option>
+                            <option value="Customer Support">Customer Support</option>
+                            <option value="Buy Tickets">Buy Tickets</option>
                         </select>
                         <br></br>
                         </div>
@@ -76,14 +94,15 @@ const Contact = () => {
                     <div className="form-padding">
                         <div className="messagesBox">
                             <label for="messages">Messages</label><br></br>
-                            <input className="form-padding messageLabel" placeholder="Type your message here" type="text" id="messages" name="messages" /><br></br>
+                            <input className="form-padding messageLabel" placeholder="Type your message here" type="text" id="messages" name="messages" onChange={(e) => setMessage(e.target.value)} /><br></br>
                         </div>
                     </div>
                     <div className="signUpBox">
-                        <input type="checkbox" id="sign-up" name="sign-up" />
+                        <input type="checkbox" id="sign-up" name="sign-up" onChange={checkHandler}/>
                         <label for="sign-up">Sign up for our mailing list</label><br></br>
 
-                        <input className="submitButton" onClick={sayHello} type="submit" id="submitButton" name="submitButton" />
+                        {/* <input className="submitButton" type="submit" id="submitButton" name="submitButton" /> */}
+                        <button  className="submitButton" id="submitButton" name="submitButton" type="submit">Submit</button>
                         <br></br>
                     </div>
                 
