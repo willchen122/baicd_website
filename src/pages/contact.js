@@ -1,8 +1,15 @@
-// import React from "react";
 import BAICD_BannerImage from '../components/Banner/BAICD_BannerImage.png';
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import axios from 'axios'; // Import Axios
 
 const Contact = () => {
+    const serviceID = "service_73i4vpj";
+    const templateID = "template_xq22bsl";
+    const publicKey = "i8VqL5uv1mKGUjOz4";
+    const postEndpoint = "https://api.emailjs.com/api/v1.0/email/send";
+
+    const form = useRef();
+
     const [name, setName] = useState("");
     const [phone, setPhone] = useState("");
     const [email, setEmail] = useState("");
@@ -19,7 +26,28 @@ const Contact = () => {
         console.log(`The message you entered was: ${message}`);
         console.log(`Mailing list: ${maillingList}`);
 
+        // code fragment
+        var data = {
+            service_id: serviceID,
+            template_id: templateID,
+            user_id: publicKey,
+            template_params: {
+                'from_name': name,
+                'phone': phone,
+                'email': email,
+                'inquiry_type': inquiry,
+                'mailing_list': maillingList,
+                'message': message
+            }
+        };
+
+        sendEmail(data);
       }
+
+      const sendEmail = (data) => {
+        axios.post(postEndpoint, data)
+        
+      };
 
       const checkHandler = () => {
         setMailingList(!maillingList)
@@ -33,6 +61,7 @@ const Contact = () => {
         },
       };
     return (
+        
         <div
             style={{
                 display: "flex",
@@ -55,7 +84,7 @@ const Contact = () => {
                 Please fill out our form below to book us for public or private performances or panels, collaborations, business proposals, press inquiries, &c. We love being a part of the community, and we look forward from hearing from you! You can also use this form to sign up for our mailing list! 
                 </p>
                 <div className="booking-form">
-                <form id="contactForm" onSubmit={handleSubmit}>
+                <form ref={form} id="contactForm" onSubmit={handleSubmit}>
                     <div className="leftColContact">
                         <div className="form-padding">
                             <label for="name">Name</label><br></br>

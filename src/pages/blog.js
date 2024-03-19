@@ -36,7 +36,7 @@ const Blog = () => {
             const headers = rows[0].split(',');        // Extract headers (assumes the first row is the header row)
             const data = [];        // Initialize an array to store the parsed data
             for (let i = 1; i < rows.length; i++) {
-                const rowData = rows[i].split(' END,');          // Use the regular expression to split the row while handling '\r'
+                const rowData = rows[i].split(' END321,');          // Use the regular expression to split the row while handling '\r'
                 const rowObject = {};
                 for (let j = 0; j < headers.length; j++) {
                     if (headers[j] == "text") {
@@ -93,8 +93,7 @@ const Blog = () => {
                 </div>
             </h1>
 
-            <div className='defaultFontXLarge'>
-            “Daka”, or check-ins, in Chinese dance refer to daily exercises that Classical Chinese dancers do to keep key body parts in working order. On this blog, you'll hear reflections from our choreographers, dancers, techs, and production team on how and why we've built our Company the way we have. We know Chinese dance isn't the only art form where artists can benefit from performance, filming, and other resources to push the boundaries of their art, but some people are too far away from us, either in space or in visual similarity, to come under our roof. We're always ready to help them one on one, but here we share some reflections on our process, so our lessons can propel future artistic groundbreakers wherever they may be. <br/><br/><br/>
+            <div className='defaultFontXLarge'>Daka, or check-ins, in Chinese dance refer to daily exercises that Classical Chinese dancers do to keep key body parts in working order. On this blog, you'll hear reflections from our choreographers, dancers, techs, and production team on how and why we've built our Company the way we have. We know Chinese dance isn't the only art form where artists can benefit from performance, filming, and other resources to push the boundaries of their art, but some people are too far away from us, either in space or in visual similarity, to come under our roof. We're always ready to help them one on one, but here we share some reflections on our process, so our lessons can propel future artistic groundbreakers wherever they may be. <br/><br/><br/>
             </div>
             {/* <div>{i}</div>
             // <pre>
