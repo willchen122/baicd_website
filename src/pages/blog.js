@@ -3,6 +3,7 @@ import BlogPost from "../components/Blog/BlogPost";
 import BAICD_BannerImage from '../components/Banner/BAICD_BannerImage.png';
 import axios from 'axios'; // Import Axios
 
+export const separatorWord = "END321";
 
 const Blog = () => {
     const styles = {
@@ -36,7 +37,8 @@ const Blog = () => {
             const headers = rows[0].split(',');        // Extract headers (assumes the first row is the header row)
             const data = [];        // Initialize an array to store the parsed data
             for (let i = 1; i < rows.length; i++) {
-                const rowData = rows[i].split(' END321,');          // Use the regular expression to split the row while handling '\r'
+                const separateOn = ' ' + separatorWord + ','
+                const rowData = rows[i].split(separateOn);          // Use the regular expression to split the row while handling '\r'
                 const rowObject = {};
                 for (let j = 0; j < headers.length; j++) {
                     if (headers[j] == "text") {
